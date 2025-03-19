@@ -1,7 +1,8 @@
 # Controle-de-Estoque
 Sistema de controle de estoque de produtos, usando como exemplo uma loja de celulares.
 
-Contém
+Contém:
+
 1 - CRUD de produtos. Os produtos podem ser cadastrados, listados e retirados do estoque. Também é possível configurar
     quantidade mínima em estoque para cada produto, dessa forma é possível ter mais controle para reposição.
 
@@ -20,5 +21,14 @@ Contém
 6 - CRUD de fornecedores (Em implementação). Contém cadastro de fornecedores para possíveis consultas de seus contatos e 
     endereços.
 
+7 - Envio mensagens (Em implementaçã). Contém funcionalidade de envio de mensagens para clientes, fornecedores e time.
 
+Tecnologias e componentes utilizados:
 
+- Javascript
+- CSS
+- Máscaras (CPF, telefone, moeda)
+- Consumo de API (Api Cep)
+- Upload de arquivo
+- Query SQL
+- Filtros
