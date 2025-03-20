@@ -21,7 +21,7 @@ Contém:
 6 - CRUD de fornecedores (Em implementação). Contém cadastro de fornecedores para possíveis consultas de seus contatos e 
     endereços.
 
-7 - Envio mensagens (Em implementaçã). Contém funcionalidade de envio de mensagens para clientes, fornecedores e time.
+7 - Envio mensagens (Em implementação). Contém funcionalidade de envio de mensagens para clientes, fornecedores e time.
 
 Tecnologias e componentes utilizados:
 
@@ -32,3 +32,6 @@ Tecnologias e componentes utilizados:
 - Upload de arquivo
 - Query SQL
 - Filtros
+- Tratamento de exceção
+- Autenticação de usuário
+- Controle de acesso
