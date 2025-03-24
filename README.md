@@ -1,7 +1,10 @@
 # Controle-de-Estoque
 Sistema de controle de estoque de produtos, usando como exemplo uma loja de celulares.
 
-Contém:
+DB_Estoque.oml contém banco de dados e regras de negócio do sistema.
+FrontEnd.oml contém telas do sistema.
+
+Sistema contém:
 
 1 - CRUD de produtos. Os produtos podem ser cadastrados, listados e retirados do estoque. Também é possível configurar
     quantidade mínima em estoque para cada produto, dessa forma é possível ter mais controle para reposição.
@@ -21,17 +24,19 @@ Contém:
 6 - CRUD de fornecedores (Em implementação). Contém cadastro de fornecedores para possíveis consultas de seus contatos e 
     endereços.
 
-7 - Envio mensagens (Em implementação). Contém funcionalidade de envio de mensagens para clientes, fornecedores e time.
+7 - Mensagens (Em implementação). Mensagens de aviso para produtos em quantidade mínima e zerados, envio de mensagens para clientes, fornecedores e time.
 
 Tecnologias e componentes utilizados:
 
 - Javascript
 - CSS
 - Máscaras (CPF, telefone, moeda)
+- Gráfico (Informa faturamento mensal, produtos e quantidade retirada por produto)
 - Consumo de API (Api Cep)
-- Upload de arquivo
+- Upload de imagem
+- Importação de planilha (cadastra de produtos contidos na planilha)
 - Query SQL
-- Filtros
+- Filtros (filtros de busca)
 - Tratamento de exceção
 - Autenticação de usuário
 - Controle de acesso
