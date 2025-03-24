@@ -2,6 +2,7 @@
 Sistema de controle de estoque de produtos, usando como exemplo uma loja de celulares.
 
 DB_Estoque.oml contém banco de dados e regras de negócio do sistema.
+
 FrontEnd.oml contém telas do sistema.
 
 Sistema contém:
